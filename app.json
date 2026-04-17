@@ -1,8 +1,8 @@
 {
-  "name": "KHAN-MD",
-  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
+  "name": "ZETSU-MD",
+  "description": "⚔️ 𝐙𝐄𝐓𝐒𝐔-MD - WhatsApp bot made by JOYBOY ⚔️",
   "logo": "https://files.catbox.moe/6zd0ru.jpg",
-  "keywords": ["KHAN-MD"],
+  "keywords": ["ZETSU-MD", "JOYBOY"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -17,54 +17,54 @@
       "value": "."
     },
     "BOT_NAME": {
-      "description": "Your bot name (Default: KHAN-MD)",
+      "description": "Your bot name (Default: ZETSU-MD)",
       "required": false,
-      "value": "KHAN-MD"
+      "value": "𝐙𝐄𝐓𝐒𝐔-MD"
     },
     "MODE": {
-      "description": "Bot mode: public/private/inbox/groups (Default: private)",
+      "description": "Bot mode: public/private/inbox/groups (Default: public)",
       "required": false,
       "value": "public"
     },
     "OWNER_NUMBER": {
-      "description": "Owner WhatsApp number without + (Default: 923427582273)",
+      "description": "Owner WhatsApp number without + (Default: 77XXXXXXXX)",
       "required": false,
-      "value": "923427582273"
+      "value": "77XXXXXXXX"
     },
     "OWNER_NAME": {
-      "description": "Owner name (Default: Jᴀᴡᴀᴅ TᴇᴄʜX)",
+      "description": "Owner name (Default: JOYBOY)",
       "required": false,
-      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
+      "value": "JOYBOY"
     },
     "AUTO_REPLY": {
       "description": "Auto reply to messages: true/false (Default: false)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "READ_MESSAGE": {
-      "description": "Auto read messages: true/false (Default: false)",
+      "description": "Auto read messages: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_REACT": {
-      "description": "Auto react to messages: true/false (Default: false)",
+      "description": "Auto react to messages: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "OWNER_REACT": {
-      "description": "Owner auto react: true/false (Default: false)",
+      "description": "Owner auto react: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "ALWAYS_ONLINE": {
-      "description": "Always online mode: true/false (Default: false)",
+      "description": "Always online mode: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_TYPING": {
-      "description": "Auto typing: true/false/inbox/group (Default: false)",
+      "description": "Auto typing: true/false/inbox/group (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_RECORDING": {
       "description": "Auto recording: true/false/inbox/group (Default: false)",
@@ -87,9 +87,9 @@
       "value": "inbox"
     },
     "ANTI_EDIT": {
-      "description": "Anti edit: true/false (Default: false)",
+      "description": "Anti edit: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "ANTIEDIT_PATH": {
       "description": "Anti edit path: inbox/group/all (Default: inbox)",
@@ -97,14 +97,14 @@
       "value": "inbox"
     },
     "ANTI_CALL": {
-      "description": "Anti call: true/false (Default: false)",
+      "description": "Anti call: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "REJECT_MSG": {
       "description": "Call reject message",
       "required": false,
-      "value": "*📞 Call not allowed in this number you don't have permission 📵*"
+      "value": "📞 *Appels non autorisés - 𝐙𝐄𝐓𝐒𝐔-MD* 📵"
     },
     "AUTO_STATUS_SEEN": {
       "description": "Auto view status: true/false (Default: true)",
@@ -122,29 +122,29 @@
       "value": "👑,💎,⭐,✨,🔥,💯,✅,🎉,🤖,⚡,💫,🌟,🏆,👾,🚀,💪,🎯,🔱,♾️,⚜️"
     },
     "WELCOME": {
-      "description": "Welcome messages: true/false (Default: false)",
+      "description": "Welcome messages: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "GOODBYE": {
-      "description": "Goodbye messages: true/false (Default: false)",
+      "description": "Goodbye messages: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "MENTION_REPLY": {
-      "description": "Mention reply mode: true/note/reply/notify/false (Default: false)",
+      "description": "Mention reply mode: true/note/reply/notify/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "WELCOME_MESSAGE": {
-      "description": "Welcome message with placeholders: @user, @group, @desc, @count, @bot, @time (Default: *_@user joined the group, welcome! 🎉_*)",
+      "description": "Welcome message with placeholders",
       "required": false,
-      "value": "*_@user joined the group, welcome! 🎉_*"
+      "value": "*_⚔️ @user a rejoint le groupe - 𝐙𝐄𝐓𝐒𝐔-MD ⚔️_*"
     },
     "GOODBYE_MESSAGE": {
-      "description": "Goodbye message with placeholders: @user, @group, @desc, @count, @bot, @time (Default: *_@user has left the group, we will miss them! 👋_*)",
+      "description": "Goodbye message with placeholders",
       "required": false,
-      "value": "*_@user has left the group, we will miss them! 👋_*"
+      "value": "*_⚔️ @user a quitté le groupe - 𝐙𝐄𝐓𝐒𝐔-MD ⚔️_*"
     },
     "BOT_MEDIA_URL": {
       "description": "Bot media URL",
@@ -157,14 +157,14 @@
       "value": "false"
     },
     "ADMIN_ACTION": {
-      "description": "Admin action notifications: true/false (Default: false)",
+      "description": "Admin action notifications: true/false (Default: true)",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "DESCRIPTION": {
       "description": "Bot description",
       "required": false,
-      "value": "*© Powered by Jᴀᴡᴀᴅ TᴇᴄʜX*"
+      "value": "*⚔️ 𝐙𝐄𝐓𝐒𝐔-MD - WhatsApp Bot | \"Le respect ne se demande pas\" - JOYBOY ⚔️*"
     }
   },
   "buildpacks": [
